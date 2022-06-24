@@ -1,0 +1,33 @@
+{
+  "name": "desktopcgi-electron",
+  "version": "0.0.3",
+  "description": "Desktop-CGI, an Application framework to build Desktop Apps using Electron and Similar Framework Apps",
+  "main": "index.js",
+  "scripts": {
+    "setup-expressbridge": "cd src/express-bridge && npm install && npm link && cd ../../ && npm install ./src/express-bridge --force",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "desktopcgi-express-bridge": "^0.0.3"
+  },
+  "devDependencies": {
+    "chai": "4.3.6",
+    "eslint": "8.11.0",
+    "mocha": "9.2.2",
+    "sinon": "13.0.1",
+    "supertest": "6.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/desktop-cgi/desktop-cgi-application.git"
+  },
+  "keywords": [
+    "Desktop-CGI"
+  ],
+  "author": "Ganesh Bhat, Desktop-CGI",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/desktop-cgi/desktop-cgi-application/issues"
+  },
+  "homepage": "https://github.com/desktop-cgi/desktop-cgi-application#readme"
+}

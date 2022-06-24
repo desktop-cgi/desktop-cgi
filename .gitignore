@@ -102,3 +102,6 @@ dist
 
 # TernJS port file
 .tern-port
+express-bridge/*.js
+express-bridge/*-lock.json
+express-bridge/**/*
