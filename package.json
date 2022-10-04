@@ -4,7 +4,7 @@
   "description": "Desktop-CGI, an Application framework to build Desktop Apps using Electron and Similar Framework Apps",
   "main": "index.js",
   "scripts": {
-    "setup-expressbridge": "cd src/express-bridge && npm install && npm link && cd ../../ && npm install ./src/express-bridge --force",
+    "": "",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {},
