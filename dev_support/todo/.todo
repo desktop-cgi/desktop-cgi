@@ -124,6 +124,7 @@ TODO - DESKTOP-CGI
             - https://github.com/dockersamples/node-bulletin-board [sample]
     - [] Consider Dependency Injection for Electron-ExpressJS Module - https://www.npmjs.com/package/injection-js
             - 
+    - [] Move to Taskcontrols instead of Gulp task based build
 
 - Community and Adoption
     - Community
