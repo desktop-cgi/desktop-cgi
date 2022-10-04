@@ -7,6 +7,3 @@
 [submodule "binaries"]
 	path = binaries
 	url = https://github.com/desktop-cgi/binaries.git
-[submodule ".github"]
-	path = .github
-	url = https://github.com/desktop-cgi/.github.git
