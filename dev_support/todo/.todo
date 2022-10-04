@@ -1,0 +1,240 @@
+TODO - DESKTOP-CGI
+
+- Features
+    - [] MVP - Create a packageable application [TODO]
+    - [] MVP - Create a installable application [TODO]
+    - [] Automate installation executable creation for all OS [TODO]
+        - [] Allowance of path definition for binary folder selection [TODO]
+        - [] Automate Packager with scripts .bat and .sh
+            - https://www.electronjs.org/docs/tutorial/application-distribution
+            - https://github.com/electron-userland/electron-builder
+    - [] 
+
+- TODO
+    - [] MVP Application [TODO]
+    - [] CGI file serve [TODO]
+    - [] Proxy serve [TODO]
+    - [] Manage Processes [TODO]
+    - [] Web Server Supported
+            - [] HTTPD [TODO]
+            - [] Nginx [TODO]
+            - [] Tomcat [TODO]
+            - [] Jetty [TODO]
+            - [] Mongoose [TODO]
+            - [] Putty [TODO]
+    - [] Databases Support
+            - [] Sqlite [TODO]
+            - [] MySQL [TODO]
+            - [] Redis [TODO]
+            - [] MongoDB [TODO]
+            - [] PgSQL [TODO]
+            - [] Oracle [TODO]
+            - [] CouchDB [TODO]
+    - [] Protocols Support
+            - [] http [TODO]
+            - [] https [TODO]
+            - [] websocket [TODO]
+            - [] tcp [TODO]
+            - [] udp [TODO]
+            - [] sockets [TODO]
+            - [] gRPC [TODO]
+            - [] ftp [TODO]
+            - [] ssh [TODO]
+            - [] Architecture Pattern change (Message/ Event Pattern support in proxy module which is currently not differentiated) [TODO]
+    - [] Standard Binaries Management config json's. [TODO]
+            - [] PHP [TODO]
+            - [] Ruby [TODO]
+            - [] Python [TODO]
+            - [] Perl [TODO]
+            - [] Java [TODO]
+            - [] Node [TODO]
+            - [] Typescript [TODO]
+            - [] Deno [TODO]
+            - [] Dask [TODO]
+            - [] HTTPD [TODO]
+            - [] Nginx [TODO]
+            - [] Mongoose [TODO]
+            - [] Tomcat [TODO]
+            - [] Jetty [TODO]
+            - [] Putty [TODO]
+            - [] MySQL [TODO]
+            - [] Redis [TODO]
+            - [] MongoDB [TODO]
+            - [] Sqlite [TODO]
+            - [] PgSQL [TODO]
+            - [] CouchDB [TODO]
+            - [] Oracle [TODO]
+            - [] Git [TODO]
+    - [] Automation of Binaries and specific Version Download. Selection of distros to be done [TODO]
+            - [] PHP [TODO]
+            - [] Ruby [TODO]
+            - [] Python [TODO]
+            - [] Perl [TODO]
+            - [] Java [TODO]
+            - [] Node [TODO]
+            - [] Typescript [TODO]
+            - [] Deno [TODO]
+            - [] Dask [TODO]
+            - [] HTTPD [TODO]
+            - [] Nginx [TODO]
+            - [] Mongoose [TODO]
+            - [] Tomcat [TODO]
+            - [] Jetty [TODO]
+            - [] Putty [TODO]
+            - [] MySQL [TODO]
+            - [] Redis [TODO]
+            - [] MongoDB [TODO]
+            - [] Sqlite [TODO]
+            - [] PgSQL [TODO]
+            - [] CouchDB [TODO]
+            - [] Oracle [TODO]
+            - [] Git [TODO]
+        - [] Testing web frameworks (for commercial use) to be done [TODO]
+            - [] PHP [TODO]
+                - []
+            - [] Ruby [TODO]
+                - []
+            - [] Python [TODO]
+                - []
+            - [] Perl [TODO]
+                - []
+            - [] Java [TODO]
+                - []
+            - [] Node [TODO]
+                - []
+            - [] Typescript [TODO]
+                - []
+            - [] Deno [TODO]
+                - []
+            - [] Dask [TODO]
+                - []
+    - [] Automation of Installable executable for Win, Linux, Mac. Selection of distros to be done [TODO]
+    - [] Easy support for different frameworks using middlewares for file
+    - [] Easy support for different frameworks using middlewares for proxy
+    - [] Easy support for different frameworks using middlewares for processes
+    - [] Manage Processes UI [TODO]
+    - [] Manage Monitoring UI [TODO]
+    - [] Add vagrant support (Adding vagrantfile) for manual development/ contributions/ personal changes
+            - https://learn.hashicorp.com/collections/vagrant/getting-started
+    - [] Add Docker based build support (Adding dockerfile)
+            - [] for app structure (www, data, download, tmp, config.json)
+                - https://docs.docker.com/get-started/part2/
+            - [] for Electron Build
+                - https://hub.docker.com/r/electronuserland/builder
+            - https://github.com/dockersamples/node-bulletin-board [sample]
+    - [] Consider Dependency Injection for Electron-ExpressJS Module - https://www.npmjs.com/package/injection-js
+            - 
+
+- Community and Adoption
+    - Community
+        - [] Consider modes of communication (Choose Moderated Official social community) [TODO]
+            - [] Discord [TODO]
+            - [] Stackoverflow [TODO]
+            - [] Twitter [TODO]
+            - [*] Github  [Done]
+            - [*] Quora  [Done]
+            - [*] Facebook  [Done]
+        - [] Wiki (Basic links to main docs site - https://desktop-cgi.github.io) [TODO]
+            - [] Set App Paths customization to docs
+                - https://www.electronjs.org/docs/all#appsetpathname-path
+        - [] 
+    - Contributors and Developers
+        - [*] Issue Templates [Done]
+        - [] Project Planning (Preferably open) [TODO]
+            - [] Feature planning, addition, feedback, and management [TODO]
+        - [] 
+    - Adoption
+        - [] 
+
+- Considerations of features
+    - [] Add Webcontent loading to electronjs
+        - https://www.electronjs.org/docs/api/web-contents
+    - [] Add Deda service manager to UI project (https://github.com/DEDAjs/deda-service-manager.git) This is temporary.
+
+
+- SUPPORTING README FOR PROJECT
+
+
+Build Instructions Linux
+https://www.electronjs.org/docs/latest/development/build-instructions-linux
+
+Electron Installer Debian
+https://github.com/electron-userland/electron-installer-debian
+This tool requires Node 10 or greater, fakeroot, and dpkg to build the .deb package.
+sudo apt-get install fakeroot dpkg
+
+Electron Installer RPM
+https://github.com/electron-userland/electron-installer-redhat
+This tool requires Node 10 or greater and rpmbuild 4.13 or greater to build the .rpm package.
+sudo apt-get install rpm
+
+https://github.com/endlessm/electron-installer-flatpak
+This tool requires flatpak and flatpak-builder >= 0.8.2 to be installed on your system. See http://flatpak.org/getting.html
+    flatpak --user remote-add --from gnome https://sdk.gnome.org/gnome.flatpakrepo
+    flatpak --user install gnome org.freedesktop.Platform/x86_64/1.4 org.freedesktop.Platform/i386/1.4
+npm install --save-dev electron-installer-flatpak
+
+https://github.com/electron-userland/electron-installer-snap
+The easiest way is to use Electron Forge and enable the snap maker.
+npm install --save-dev electron-installer-snap
+
+https://github.com/electron-userland/electron-installer-dmg
+This module requires using macOS and Node 12 (LTS) or above.
+npm i electron-installer-dmg --save-dev
+
+https://github.com/electron-userland/electron-installer-windows
+This tool relies on the awesome Squirrel.Windows framework written by @anaisbetts.
+npm install --save-dev electron-installer-windows
+
+https://github.com/felixrieseberg/electron-wix-msi
+Most Electron developers use the official windows-installer to create Windows installers.
+npm i --save-dev electron-wix-msi
+
+https://github.com/felixrieseberg/electron-windows-store
+npm install -g electron-windows-store
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned
+
+https://github.com/electron/windows-installer
+NPM module that builds Windows installers for Electron apps using Squirrel.
+npm install --save-dev electron-winstaller
+
+https://github.com/electron-userland/electron-installer-zip
+Create a zip file with support for symlinks required by Electron on macOS
+npm i electron-installer-zip --save-dev
+
+https://github.com/Urucas/electron-packager-interactive
+An interactive implementation of electron-packager
+npm install -g electron-packager-interactive
+
+https://github.com/electron-userland/electron-forge
+Note: Electron Forge requires Node 12.13.0 (LTS) or above, plus git installed.
+npm install -g @electron-forge/cli
+
+https://github.com/electron/electron-rebuild
+npm install --save-dev electron-rebuild
+
+https://github.com/electron/windows-installer
+NPM module that builds Windows installers for Electron apps using Squirrel.
+npm install --save-dev electron-winstaller
+
+https://github.com/felixrieseberg/electron-windows-store
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned
+npm install -g electron-windows-store
+
+https://www.npmjs.com/package/electron-packager-plugin-non-proprietary-codecs-ffmpeg
+https://www.npmjs.com/package/electron-packager-languages
+
+allproxy - Consider for monitoring
+AllProxy is a MITM proxy similar to Fiddler and Charles, but in addition to HTTP(S), it also can 
+    captures SQL, gRPC, MongoDB, Redis, Memcached, TCP, and log messages.
+https://www.npmjs.com/package/allproxy
+
+Nodejs monitoring tools
+https://www.section.io/engineering-education/top-node.js-monitoring-tools/
+
+Capture uptime, performance system metrics of process
+https://www.npmjs.com/package/metrica
+
+Process Metric Monitoring - Linux
+https://github.com/yahoo/monitr
+
