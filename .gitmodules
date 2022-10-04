@@ -4,3 +4,9 @@
 [submodule "base-wails"]
 	path = base-wails
 	url = https://github.com/desktop-cgi/base-wails.git
+[submodule "binaries"]
+	path = binaries
+	url = https://github.com/desktop-cgi/binaries.git
+[submodule "build"]
+	path = build
+	url = https://github.com/desktop-cgi/build.git
