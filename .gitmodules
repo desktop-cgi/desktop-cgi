@@ -1,0 +1,6 @@
+[submodule "base-wails"]
+	path = base-wails
+	url = https://github.com/desktop-cgi/base-wails.git
+[submodule "base-electron"]
+	path = base-electron
+	url = https://github.com/desktop-cgi/base-electron.git
