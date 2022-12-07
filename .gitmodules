@@ -7,3 +7,6 @@
 [submodule "binaries"]
 	path = binaries
 	url = https://github.com/desktop-cgi/binaries.git
+[submodule "cgi-js"]
+	path = cgi-js
+	url = https://github.com/cgi-js/cgi-js.git
