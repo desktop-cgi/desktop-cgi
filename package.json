@@ -1,6 +1,6 @@
 {
   "name": "desktopcgi-electron",
-  "version": "0.0.3",
+  "version": "2.0.0-alpha02",
   "description": "Desktop-CGI, an Application framework to build Desktop Apps using Electron and Similar Framework Apps",
   "main": "index.js",
   "scripts": {
