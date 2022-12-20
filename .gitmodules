@@ -10,3 +10,6 @@
 [submodule "cgi-js"]
 	path = cgi-js
 	url = https://github.com/cgi-js/cgi-js.git
+[submodule "base-tauri"]
+	path = base-tauri
+	url = https://github.com/desktop-cgi/base-tauri.git
