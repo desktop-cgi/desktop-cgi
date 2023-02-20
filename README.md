@@ -133,7 +133,7 @@ You can track development status here [desktop-cgi/projects](https://github.com/
 
 # Todo
 
-Check file - [.todo](./dev_support/todo/.todo)
+Check file - [.todo](https://github.com/desktop-cgi/desktop-cgi/blob/main/dev_support/todo/.todo)
 
 
 # References
