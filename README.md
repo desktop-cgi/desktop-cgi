@@ -24,6 +24,7 @@ Desktop-CGI runs an Electron - Node - Express based application under the hood a
 
 * Install node.js from [https://www.nodejs.org](https://nodejs.org/en/download/).
 * For [base-wails](https://github.com/desktop-cgi/base-wails): Install GoLang and [dependencies](https://github.com/desktop-cgi/base-wails/blob/7bb38f0cb1af46d694c5709794da902267e3626b/readme.install.dependencies.links.txt) 
+* For [base-tauri](https://github.com/desktop-cgi/base-tauri): Install GoLang and [dependencies](https://github.com/desktop-cgi/base-wails/blob/7bb38f0cb1af46d694c5709794da902267e3626b/readme.install.dependencies.links.txt) 
 * Clone the [Git repository](https://github.com/desktop-cgi/desktop-cgi) (Alternatively, download the git repository)
 * Change to the git repository directory / folder `cd path/to/desktop-cgi` from command line / shell / powershell
 * Run command `npm install`
