@@ -1,0 +1,14 @@
+{
+    "node": {
+        "compressiontype": "zip",
+        "url": "https://nodejs.org/dist/v18.16.0/node-v18.16.0-win-x86.zip",
+        "tmp": "./",
+        "dest": "./extract"
+    },
+    "secondnode": {
+        "compressiontype": "zip",
+        "url": "https://nodejs.org/dist/v18.16.0/node-v18.16.0-win-x86.zip",
+        "tmp": "./",
+        "dest": "./extract"
+    }
+}

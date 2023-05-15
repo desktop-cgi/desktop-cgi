@@ -1,0 +1,9 @@
+{
+    "paths": {
+        "base": "C:\\Users\\GB\\Documents\\projects\\desktopcgi\\desktop-cgi-application",
+        "binaries": "",
+        "www": "",
+        "electron-dist": "",
+        "wails-dist": ""
+    }
+}
