@@ -5,17 +5,17 @@
   "main": "index.js",
   "scripts": {
     "": "",
+    "upgradepack": "npm install -g npm-check-updates && ncu --upgrade && npm install",
     "test": "mocha --reporter spec --recursive --config ./mocha.test.config.js"
   },
-  "dependencies": {},
   "devDependencies": {
-    "chai": "4.3.6",
-    "eslint": "8.11.0",
+    "chai": "4.3.7",
+    "eslint": "8.40.0",
     "gulp": "^4.0.2",
     "gulp-cli": "^2.3.0",
-    "mocha": "9.2.2",
-    "sinon": "13.0.1",
-    "supertest": "6.2.2"
+    "mocha": "10.2.0",
+    "sinon": "15.0.4",
+    "supertest": "6.3.3"
   },
   "repository": {
     "type": "git",

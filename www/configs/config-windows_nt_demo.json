@@ -16,7 +16,7 @@
         "secret": "1234567890"
     },
     "app": {
-        "basePath": "C:\\Users\\GB\\Documents\\projects\\desktopcgi\\desktop-cgi-application",
+        "basePath": "C:\\Users\\GB\\Documents\\projects\\allprojects\\desktopcgi\\desktop-cgi",
         "temp": "/tmp",
         "cache": "/data/cache",
         "downloads": "/downloads",
