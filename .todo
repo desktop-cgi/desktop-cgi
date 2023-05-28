@@ -1,0 +1,24 @@
+** TODO LIST
+
+[EXECUTABLE BASE CREATION]
+    [DESKTOP-CGI]
+        - Support for config
+            - [todo] Expres server common base for any electron, wails, tauri
+            - [todo] Express Server for Proxy support using config
+            - [todo] Express Server for File serving support using config
+            - [todo] Express Server for Process management support using config
+[EXECUTABLE CREATION]
+    [MANUAL]
+        - npm command to executable creation with all needed dependencies
+    [AUTOMATE]
+        - Using GIT Repository Pull and run .bat or .sh command 
+            - Support minor MVP version to create executable for win, linux, mac using 1 package managers for electron
+            - Support minor MVP version to create executable for win, linux, mac using 2-3 package managers for electron
+            - Support minor MVP version to create executable for win, linux, mac using wails
+            - Support minor MVP version to create executable for win, linux, mac using tauri
+        - Using Docker file and docker run command
+            - Support minor MVP version to create executable for win, linux, mac with docker shell command using 1 package managers for electron
+            - Support minor MVP version to create executable for win, linux, mac with docker shell command using 2-3 package managers for electron
+            - Support minor MVP version to create executable for win, linux, mac with docker shell command using wails
+            - Support minor MVP version to create executable for win, linux, mac with docker shell command using tauri
+
