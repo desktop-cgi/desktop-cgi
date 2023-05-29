@@ -13,3 +13,6 @@
 [submodule "base-tauri"]
 	path = base-tauri
 	url = https://github.com/desktop-cgi/base-tauri.git
+[submodule "bridge-express"]
+	path = bridge-express
+	url = https://github.com/desktop-cgi/bridge-express.git
