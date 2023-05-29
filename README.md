@@ -68,7 +68,7 @@ The Desktop-CGI based executable can be created using `electron`, `wails` (todo)
     - In App / Local / Remote proxy support
 * Allows
     - running multiple interpreters in one app
-    - running multiple proxies (currently `http`, `websockets`, `tcp`, `udp`, `grpc` planned) in one app
+    - running multiple proxies (currently `http`, `websockets`. Other protocols like `tcp`, `udp`, `grpc`, `sockets` planned) in one app
     - multiple embedded servers in one app
 * Allows embedding servers like `httpd`, `nginx`, etc to serve web applications - using `cgijs process` module
 * Allows embedding database servers (in development) - using `cgijs process` module
