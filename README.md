@@ -105,10 +105,10 @@ The Desktop-CGI based executable can be created using `electron`, `wails` (todo)
 The script can proxy to any File, most embeddable web servers, and/ or Proxy-able local / remote servers; even IIS Server (Allows Proxy)
 
 
-##### Note:
+#### Note:
 
 
-##### Package Dependencies:
+#### Electron Base Package Dependencies:
 
 * Library dependencies:
     - Nodejs: (> 8.x)
