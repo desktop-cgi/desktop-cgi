@@ -66,5 +66,8 @@
   "bugs": {
     "url": "https://github.com/desktop-cgi/desktop-cgi-application/issues"
   },
-  "homepage": "https://github.com/desktop-cgi/desktop-cgi-application#readme"
+  "homepage": "https://github.com/desktop-cgi/desktop-cgi-application#readme",
+  "dependencies": {
+    "desktopcgi-bridge-express": "^0.0.1"
+  }
 }
