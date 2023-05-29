@@ -22,18 +22,19 @@ Desktop-CGI runs an Electron - Node - Express based application under the hood a
 
 # Setup Desktop-CGI [IN DEVELOPMENT]
 
+* Generate the `executable using shell scripts`
 * Download and Install Dependencies using `setup.bat` or `setup.ps1` or `setup.sh`
     * Run the `setup.bat` or `setup.ps1` in Windows or `setup.sh` in linux/ mac to download dependencies and set up the repository
-        * Install `node.js` from [https://www.nodejs.org](https://nodejs.org/en/download/).
-        * (A) `Golang` for `wails` based, (B) `Rust` for `tauri` based, and (C) `nodejs` and `electron` for `electron` based
-        * Other dependencies
-            * For [base-electron](https://github.com/desktop-cgi/base-electron): Install [dependencies](https://github.com/desktop-cgi/base-electron/blob/a885d410503438e01a86758a67fe65f04b580091/readme.install.dependencies.links.txt) 
-            * For [base-wails](https://github.com/desktop-cgi/base-wails): Install GoLang and [dependencies](https://github.com/desktop-cgi/base-wails/blob/14f76e6aa99c3bb641ed1ac174eb6ca2a07ff9eb/readme.install.dependencies.links.txt) 
-            * For [base-tauri](https://github.com/desktop-cgi/base-tauri): Install [dependencies](https://github.com/desktop-cgi/base-tauri/blob/ebdc2cc29502518ab0e60b60bafbe21c4f5fe546/readme.install.dependencies.links.txt) 
-        * Clone the [Git repository](https://github.com/desktop-cgi/desktop-cgi) (Alternatively, download the git repository)
-        * Change to the git repository directory / folder `cd path/to/desktop-cgi` from command line / shell / powershell
-        * Setup the repository for creation of executables with all needec dependencies
-* Generate the `executable using shell scripts`
+        * Following steps are run when the setup shell command is run
+            * Install `node.js` from [https://www.nodejs.org](https://nodejs.org/en/download/).
+            * (A) `Golang` for `wails` based, (B) `Rust` for `tauri` based, and (C) `nodejs` and `electron` for `electron` based
+            * Other dependencies
+                * For [base-electron](https://github.com/desktop-cgi/base-electron): Install [dependencies](https://github.com/desktop-cgi/base-electron/blob/a885d410503438e01a86758a67fe65f04b580091/readme.install.dependencies.links.txt) 
+                * For [base-wails](https://github.com/desktop-cgi/base-wails): Install GoLang and [dependencies](https://github.com/desktop-cgi/base-wails/blob/14f76e6aa99c3bb641ed1ac174eb6ca2a07ff9eb/readme.install.dependencies.links.txt) 
+                * For [base-tauri](https://github.com/desktop-cgi/base-tauri): Install [dependencies](https://github.com/desktop-cgi/base-tauri/blob/ebdc2cc29502518ab0e60b60bafbe21c4f5fe546/readme.install.dependencies.links.txt) 
+            * Clone the [Git repository](https://github.com/desktop-cgi/desktop-cgi) (Alternatively, download the git repository)
+            * Change to the git repository directory / folder `cd path/to/desktop-cgi` from command line / shell / powershell
+            * Setup the repository for creation of executables with all needed dependencies
     * Run the `genexe.bat` (win) or `genexe.sh` (linux/ mac) with its arguments as needed for `www`, `config` folder and `other arguments` to generate the executable as needed
 * Generate the `executable using docker command`
     * Run the `docker` run command with its arguments as needed for `www`, `config` folder and `other arguments` to generate the executable as needed
