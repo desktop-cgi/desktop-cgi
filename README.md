@@ -56,7 +56,7 @@ The Desktop-CGI based executable can be created using `electron`, `wails` (todo)
 * You should also be able to run and manage other executable binaries like `web server`, `message queues` or `databases` for any of your requirements using the `processes` definition section of the config file. 
 * It pipes web applications created from `php`, `aspx`, `jsp`, `nodejs`, `python`, `ruby`, `perl` or other scripting languages of your choice using a embedded web server of your choice using the `processes` definition section of the config file. 
 * If your web application is a binary executable that serves an entire web application and web server on its own like `golang`, `c++`/ `c`, or a `java` based executable the Desktop-CGI can manage this as an embedded binary using the `processes` and the `proxies` definition sections of the config file. 
-* Creation of an `electron` or `wails` based executable can be as simple as creating your `config.json` file, specifying the `www`, `binaries` resources folder, and running the genexe script or docker command. 
+* Creation of an `electron` or `wails` based executable can be as simple as creating your `config.json` file, specifying the `www`, `binaries` resources folder, and running the `genexe` script or `docker` command. 
 
 
 ##### Electron based Desktop application runs a CGIJS based CGI serving Server
