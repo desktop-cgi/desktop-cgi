@@ -64,7 +64,7 @@ The Desktop-CGI based executable can be created using `electron`, `wails` (todo)
 * Desktop-CGI uses any nodejs framework along with `cgijs` to serve any `CGI` file, `web apps`, `local`/ `remote` `proxies` to create a native-like desktop executable. 
 * `cgijs` is Nodejs package which is framework independent / agnostic for serving CGI or interpreted scripting apps via files, or server based web apps via proxies. 
     - `Express` Recommended and used for demo.
-    - Any other Nodejs framework like `nextjs`, `koa`, `fastify`, etc can be used to create similar `cgijs` based applications. `cgijs` is framework `independent` and `agnostic`. 
+    - Any other Nodejs framework like `koa`, `fastify`, etc can be used to create similar `cgijs` based applications. `cgijs` is framework `independent` and `agnostic`. 
 * Run any script files that supports CGI based file script serving - using `cgijs file` module
 * Run any host that serves a web app - using `cgijs proxy` module
     - In App / Local / Remote proxy support
