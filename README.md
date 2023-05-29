@@ -1,5 +1,5 @@
 # desktop-cgi
-Desktop-CGI is a desktop executable app that can be created from any CGI files or CGI web apps that can be served from an file, an embedded web server using proxy, or an remote proxy web server. It supports embedding and managing embeddable databases and executables. It supports all major Operating systems supported by electron like Windows, Linux, and MacOS supported by Electron.
+Desktop-CGI is a desktop executable app that can be created from any CGI files or CGI web apps that can be served from an file, an embedded web server using proxy, or an remote proxy web server. It supports embedding and managing embeddable databases and executables. It supports all major Operating systems supported by electron like Windows, Linux, and MacOS supported by Electron. 
 
 
 `[Funding Invited]`
@@ -14,7 +14,7 @@ Desktop-CGI is a desktop executable app that can be created from any CGI files o
 # Highlights
 
 
-Desktop-CGI can serve any CGI files, OR CGI / Scripted / Interpreted languages like PHP, Ruby, Python, Perl, JSP, ASPX, Other Interpreted Languages through embedded webservers, OR any remote proxy (any protocol / webserver) apps 
+Desktop-CGI can serve any CGI files, OR CGI / Scripted / Interpreted languages like `PHP`, `Ruby`, `Python`, `Perl`, `JSP`, `ASPX`, `Other Interpreted` Languages through `embedded webservers` (along with `embedded databases` or `embedded executables`), OR any `remote proxy` (any protocol / webserver) apps using the `cgifiles`, `processes`, and the `proxy` modules respectively. 
 
 
 Desktop-CGI runs an Electron - Node - Express based application under the hood and supports major Operating systems like Windows, Linux, Mac or any operating systems supported by Electron.
@@ -59,10 +59,12 @@ The Desktop-CGI based executable can be created using `electron`, `wails` (todo)
 * Creation of an `electron` or `wails` based executable can be as simple as creating your `config.json` file, specifying the `www`, `binaries` resources folder, and running the `genexe` script or `docker` command. 
 
 
-##### Electron based Desktop application runs a CGIJS based CGI serving Server
+##### Desktop application runs a CGIJS based CGI serving Server whether using a `Electon`, `Wails`, `Tauri` based base
 
-* `cgijs` is Nodejs framework independent / agnostic for serving CGI or interpreted scripting apps via files, or server based web apps via proxies
-    - Express Recommended and used for demo
+* Desktop-CGI uses any nodejs framework along with `cgijs` to serve any `CGI` file, `web apps`, `local`/ `remote` `proxies` to create a native-like desktop executable. 
+* `cgijs` is Nodejs package which is framework independent / agnostic for serving CGI or interpreted scripting apps via files, or server based web apps via proxies. 
+    - `Express` Recommended and used for demo.
+    - Any other Nodejs framework like `nextjs`, `koa`, `fastify`, etc can be used to create similar `cgijs` based applications. `cgijs` is framework `independent` and `agnostic`. 
 * Run any script files that supports CGI based file script serving - using `cgijs file` module
 * Run any host that serves a web app - using `cgijs proxy` module
     - In App / Local / Remote proxy support
@@ -88,7 +90,7 @@ The Desktop-CGI based executable can be created using `electron`, `wails` (todo)
 
 * Jsp (With Tomcat embedded)
 * Aspx (Version Independent - With local IIS proxy, Apache embedded)
-* Any app using local / remote proxy (currently http, websockets, tcp, udp. grpc planned)
+* Any app using local / remote proxy (currently http, websockets. tcp, udp, grpc, socket planned)
 
 
 ##### The script should currently allow embedding following servers for proxy [TODO: In Development]:
