@@ -59,7 +59,7 @@ The Desktop-CGI based executable can be created using `electron`, `wails` (todo)
 * Creation of an `electron` or `wails` based executable can be as simple as creating your `config.json` file, specifying the `www`, `binaries` resources folder, and running the `genexe` script or `docker` command. 
 
 
-##### Desktop application runs a CGIJS based CGI serving Server whether using a `Electon`, `Wails`, `Tauri` based base
+##### Desktop-CGI application runs a CGIJS based CGI serving Server whether using a `Electon`, `Wails`, `Tauri` based base
 
 * Desktop-CGI uses any nodejs framework along with `cgijs` to serve any `CGI` file, `web apps`, `local`/ `remote` `proxies` to create a native-like desktop executable. 
 * `cgijs` is Nodejs package which is framework independent / agnostic for serving CGI or interpreted scripting apps via files, or server based web apps via proxies. 
