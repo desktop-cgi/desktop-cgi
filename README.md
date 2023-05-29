@@ -20,21 +20,33 @@ Desktop-CGI can serve any CGI files, OR CGI / Scripted / Interpreted languages l
 Desktop-CGI runs an Electron - Node - Express based application under the hood and supports major Operating systems like Windows, Linux, Mac or any operating systems supported by Electron.
 
 
-# Usage
+# Setup Desktop-CGI [IN DEVELOPMENT]
 
+* Download and Install Dependencies using `setup.bat` or `setup.ps1` or `setup.sh`
+    * Run the `setup.bat` or `setup.ps1` in Windows or `setup.sh` in linux/ mac to download dependencies and set up the repository
+        * Install `node.js` from [https://www.nodejs.org](https://nodejs.org/en/download/).
+        * (A) `Golang` for `wails` based, (B) `Rust` for `tauri` based, and (C) `nodejs` and `electron` for `electron` based
+        * Other dependencies
+            * For [base-electron](https://github.com/desktop-cgi/base-electron): Install [dependencies](https://github.com/desktop-cgi/base-electron/blob/a885d410503438e01a86758a67fe65f04b580091/readme.install.dependencies.links.txt) 
+            * For [base-wails](https://github.com/desktop-cgi/base-wails): Install GoLang and [dependencies](https://github.com/desktop-cgi/base-wails/blob/14f76e6aa99c3bb641ed1ac174eb6ca2a07ff9eb/readme.install.dependencies.links.txt) 
+            * For [base-tauri](https://github.com/desktop-cgi/base-tauri): Install [dependencies](https://github.com/desktop-cgi/base-tauri/blob/ebdc2cc29502518ab0e60b60bafbe21c4f5fe546/readme.install.dependencies.links.txt) 
+        * Clone the [Git repository](https://github.com/desktop-cgi/desktop-cgi) (Alternatively, download the git repository)
+        * Change to the git repository directory / folder `cd path/to/desktop-cgi` from command line / shell / powershell
+        * Setup the repository for creation of executables with all needec dependencies
+* Generate the `executable using shell scripts`
+    * Run the `genexe.bat` (win) or `genexe.sh` (linux/ mac) with its arguments as needed for `www`, `config` folder and `other arguments` to generate the executable as needed
+* Generate the `executable using docker command`
+    * Run the `docker` run command with its arguments as needed for `www`, `config` folder and `other arguments` to generate the executable as needed
 
-* Install node.js from [https://www.nodejs.org](https://nodejs.org/en/download/).
-* For [base-electron](https://github.com/desktop-cgi/base-electron): Install [dependencies](https://github.com/desktop-cgi/base-electron/blob/a885d410503438e01a86758a67fe65f04b580091/readme.install.dependencies.links.txt) 
-* For [base-wails](https://github.com/desktop-cgi/base-wails): Install GoLang and [dependencies](https://github.com/desktop-cgi/base-wails/blob/14f76e6aa99c3bb641ed1ac174eb6ca2a07ff9eb/readme.install.dependencies.links.txt) 
-* For [base-tauri](https://github.com/desktop-cgi/base-tauri): Install [dependencies](https://github.com/desktop-cgi/base-tauri/blob/ebdc2cc29502518ab0e60b60bafbe21c4f5fe546/readme.install.dependencies.links.txt) 
-* Clone the [Git repository](https://github.com/desktop-cgi/desktop-cgi) (Alternatively, download the git repository)
-* Change to the git repository directory / folder `cd path/to/desktop-cgi` from command line / shell / powershell
-* Run command `npm install`
+<!-- * Run command `npm install`
 * Add your application in the respective `www` folder or sub-folder [TODO - Simplify]
 * Check and modify `server/config/config-**template**.json` file for your application's configuration needs
 * Check if your electron app runs using command `npm run electron`
 * Run command `npm run electronbuild` [TODO - Simplify]
-* [Demo] A demo app is placed in the folder [www\demoapp](./www/demoapp)
+* [Demo] A demo app is placed in the folder [www\demoapp](./www/demoapp) -->
+
+
+# 
 
 
 # Functionality Details
