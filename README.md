@@ -23,7 +23,7 @@ Desktop-CGI runs an Electron - Node - Express based application under the hood a
 # Setup Desktop-CGI [IN DEVELOPMENT]
 
 * Generate the `executable using shell scripts`
-* Download and Install Dependencies using `setup.bat` or `setup.ps1` or `setup.sh`
+    * Download and Install Dependencies using `shell` scripts
     * Run the `setup.bat` or `setup.ps1` in Windows or `setup.sh` in linux/ mac to download dependencies and set up the repository
         * Following steps are run when the setup shell command is run
             * Install `node.js` from [https://www.nodejs.org](https://nodejs.org/en/download/).
