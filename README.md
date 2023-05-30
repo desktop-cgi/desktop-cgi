@@ -126,10 +126,6 @@ The script can proxy to any File, most embeddable web servers, and/ or Proxy-abl
     - socket.io: (>=4.5.0)
     - ws: (>=8.5.0)
 
-##### Usage Demo:
-
-Check `index.js` and `server` folder for demo code
-
 
 # Technical Specifications
 
