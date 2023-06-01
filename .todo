@@ -3,7 +3,7 @@
 [EXECUTABLE BASE CREATION]
     [DESKTOP-CGI]
         - Support for config
-            - [todo] Expres server common base for any electron, wails, tauri
+            - [todo] Express server common base for any electron, wails, tauri, considering support for React Native using https://proton-native.js.org/#/
             - [todo] Express Server for Proxy support using config
             - [todo] Express Server for File serving support using config
             - [todo] Express Server for Process management support using config
