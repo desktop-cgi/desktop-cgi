@@ -11,7 +11,7 @@
                 - [] Native script
                 - [] Cordova
         
-        - Build Systems
+        - Build Tooling Support
             - Electron
                 - [] Electron builder
             - Wails
@@ -24,6 +24,11 @@
                 - []
             - Cordova
                 - []
+    - [] Setup scripts for building
+        - [] .bat
+        - [] .ps
+        - [] .sh
+    - [] Docker Support for building
 
 [EXECUTABLE BASE CREATION]
     [DESKTOP-CGI]
@@ -32,6 +37,7 @@
             - [todo] Express Server for Proxy support using config
             - [todo] Express Server for File serving support using config
             - [todo] Express Server for Process management support using config
+
 [EXECUTABLE CREATION]
     [MANUAL]
         - npm command to executable creation with all needed dependencies
