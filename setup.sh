@@ -3,7 +3,7 @@ git init
 git remote -v
 git remote remove main
 git remote remove origin
-git remote add origin https://github.com/ganeshkbhat/base-electron.git
+git remote add origin https://github.com/desktop-cgi/base-electron.git
 git remote -v
 git pull origin main
 git checkout main
@@ -14,7 +14,7 @@ git init
 git remote -v
 git remote remove main
 git remote remove origin
-git remote add origin https://github.com/ganeshkbhat/base-tauri.git
+git remote add origin https://github.com/desktop-cgi/base-tauri.git
 git remote -v
 git pull origin main
 git checkout main
@@ -25,7 +25,7 @@ git init
 git remote -v
 git remote remove main
 git remote remove origin
-git remote add origin https://github.com/ganeshkbhat/base-wails.git
+git remote add origin https://github.com/desktop-cgi/base-wails.git
 git remote -v
 git pull origin main
 git checkout main
@@ -36,7 +36,7 @@ git init
 git remote -v
 git remote remove main
 git remote remove origin
-git remote add origin https://github.com/ganeshkbhat/binaries.git
+git remote add origin https://github.com/desktop-cgi/binaries.git
 git remote -v
 git pull origin main
 git checkout main
@@ -47,7 +47,7 @@ git init
 git remote -v
 git remote remove main
 git remote remove origin
-git remote add origin https://github.com/ganeshkbhat/bridge-cordova.git
+git remote add origin https://github.com/desktop-cgi/bridge-cordova.git
 git remote -v
 git pull origin main
 git checkout main
@@ -58,7 +58,7 @@ git init
 git remote -v
 git remote remove main
 git remote remove origin
-git remote add origin https://github.com/ganeshkbhat/bridge-express.git
+git remote add origin https://github.com/desktop-cgi/bridge-express.git
 git remote -v
 git pull origin main
 git checkout main
@@ -69,7 +69,7 @@ git init
 git remote -v
 git remote remove main
 git remote remove origin
-git remote add origin https://github.com/ganeshkbhat/bridge-nativescript.git
+git remote add origin https://github.com/desktop-cgi/bridge-nativescript.git
 git remote -v
 git pull origin main
 git checkout main
@@ -80,7 +80,18 @@ git init
 git remote -v
 git remote remove main
 git remote remove origin
-git remote add origin https://github.com/ganeshkbhat/bridge-reactnative.git
+git remote add origin https://github.com/desktop-cgi/bridge-reactnative.git
+git remote -v
+git pull origin main
+git checkout main
+npm install --force
+cd ..
+cd cgi-js
+git init
+git remote -v
+git remote remove main
+git remote remove origin
+git remote add origin https://github.com/cgi-js/cgi-js.git
 git remote -v
 git pull origin main
 git checkout main
