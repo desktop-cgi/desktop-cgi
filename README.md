@@ -68,9 +68,9 @@ The Desktop-CGI based executable can be created using `electron`, `wails` (todo)
     * [P] Web Server
         * [P] Direct Access
         * [P] Proxy Access
-    * [P] Multiple Bases
+* [P] Multiple Bases
     * [P] Nodejs - Express
-    * [T] Nodejs
+    * [T] Nodejs - Extendible Other frameworks
 * [P] Multiple (Embedded: E) Server Options
     * [D] Remote Server (using proxy)
     * [P] (E) Nginx
