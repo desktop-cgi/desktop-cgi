@@ -107,4 +107,4 @@ git remote -v
 git pull origin main
 git checkout main
 npm install --force
-# cd ..
+cd ..

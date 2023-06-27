@@ -114,3 +114,4 @@ git remote remove origin
 git remote add origin https://github.com/desktop-cgi/desktop-cgi.git
 git remote -v
 git pull origin main
+cd ..
