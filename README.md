@@ -44,53 +44,6 @@ Desktop-CGI runs an Electron - Node - Express based application under the hood a
 
 The Desktop-CGI based executable can be created using `electron`, `wails` (todo), and `tauri` (todo) and your own web application made from any web scripting language of your choice.
 
-* You should be able to run all files created from `php`, `aspx`, `jsp`, `nodejs`, `python`, `ruby`, `perl` or other scripting languages of your choice using the `cgifiles` definition section of the config file.
-* You should also be able to run and manage other executable binaries like `web server`, `message queues` or `databases` for any of your requirements using the `processes` definition section of the config file.
-* It pipes web applications created from `php`, `aspx`, `jsp`, `nodejs`, `python`, `ruby`, `perl` or other scripting languages of your choice using a embedded web server of your choice using the `processes` definition section of the config file.
-* If your web application is a binary executable that serves an entire web application and web server on its own like `golang`, `c++`/ `c`, or a `java` based executable the Desktop-CGI can manage this as an embedded binary using the `processes` and the `proxies` definition sections of the config file.
-* Creation of an `electron` or `wails` based executable can be as simple as creating your `config.json` file, specifying the `www`, `binaries` resources folder, and running the `genexe` script or `docker` command.
-
-##### Desktop-CGI application runs a CGIJS based CGI serving Server whether using a `Electon`, `Wails`, `Tauri` based base
-
-* Desktop-CGI uses any nodejs framework along with `cgijs` to serve any `CGI` file, `web apps`, `local`/ `remote` `proxies` to create a native-like desktop executable.
-* `cgijs` is Nodejs package which is framework independent / agnostic for serving CGI or interpreted scripting apps via files, or server based web apps via proxies.
-  * `Express` Recommended and used for demo.
-  * Any other Nodejs framework like `koa`, `fastify`, etc can be used to create similar `cgijs` based applications. `cgijs` is framework `independent` and `agnostic`.
-* Allows running `any interpreted script files` that supports CGI based file script serving - using `cgijs file` module
-* Allows running `any host` that serves a `web app` - using `cgijs proxy` module
-  * In App / Local / Remote proxy support
-* Allows `embedding servers` like `httpd`, `nginx`, etc to serve web applications - using `cgijs process` module
-* Allows `embedding database servers` (in development) - using `cgijs process` module
-* Allows `embedding executables` (in development) - using `cgijs process` module
-* Allows
-  * running multiple language interpreters in one app
-  * running multiple proxies (currently `http`, `websockets`. Other protocols like `tcp`, `udp`, `grpc`, `sockets` planned) in one app
-  * managing multiple embedded (http) servers in one app
-  * managing multiple embedded executables in one app
-
-##### The script should pipe all interpreted language files below
-
-* Python (2.x, 3.x)
-* Perl (Version Independent)
-* PHP (Version Independent)
-* Ruby (Version Independent)
-<!-- * .NET (Version Independent) -->
-<!-- * JSP (Version Independent) -->
-
-##### The script will pipe all proxies of above languages and following (to be tested)
-
-* Jsp (With Tomcat embedded)
-* Aspx (Version Independent - With local IIS proxy, Apache embedded)
-* Any app using local / remote proxy (currently http, websockets. tcp, udp, grpc, socket planned)
-
-##### The script should currently allow embedding following servers for proxy [TODO: In Development]
-
-* Apache HTTPD (Allows Embed & Proxy)
-* Apache TomCat (Allows Embed & Proxy)
-* Nginx (Allows Embed & Proxy)
-* Mongoose http server (Allows Embed & Proxy)
-
-The script can proxy to any File, most embeddable web servers, and/ or Proxy-able local / remote servers; even IIS Server (Allows Proxy)
 
 #### Functionality Progress
 
@@ -140,6 +93,58 @@ The script can proxy to any File, most embeddable web servers, and/ or Proxy-abl
     * [P] Binary Executable based web apps
         * [P] Java
         * [P] GoLang
+
+
+The functionality details are as follows:
+
+* You should be able to run all files created from `php`, `aspx`, `jsp`, `nodejs`, `python`, `ruby`, `perl` or other scripting languages of your choice using the `cgifiles` definition section of the config file.
+* You should also be able to run and manage other executable binaries like `web server`, `message queues` or `databases` for any of your requirements using the `processes` definition section of the config file.
+* It pipes web applications created from `php`, `aspx`, `jsp`, `nodejs`, `python`, `ruby`, `perl` or other scripting languages of your choice using a embedded web server of your choice using the `processes` definition section of the config file.
+* If your web application is a binary executable that serves an entire web application and web server on its own like `golang`, `c++`/ `c`, or a `java` based executable the Desktop-CGI can manage this as an embedded binary using the `processes` and the `proxies` definition sections of the config file.
+* Creation of an `electron` or `wails` based executable can be as simple as creating your `config.json` file, specifying the `www`, `binaries` resources folder, and running the `genexe` script or `docker` command.
+
+##### Desktop-CGI application runs a CGIJS based CGI serving Server whether using a `Electon`, `Wails`, `Tauri` based base
+
+* Desktop-CGI uses any nodejs framework along with `cgijs` to serve any `CGI` file, `web apps`, `local`/ `remote` `proxies` to create a native-like desktop executable.
+* `cgijs` is Nodejs package which is framework independent / agnostic for serving CGI or interpreted scripting apps via files, or server based web apps via proxies.
+  * `Express` Recommended and used for demo.
+  * Any other Nodejs framework like `koa`, `fastify`, etc can be used to create similar `cgijs` based applications. `cgijs` is framework `independent` and `agnostic`.
+* Allows running `any interpreted script files` that supports CGI based file script serving - using `cgijs file` module
+* Allows running `any host` that serves a `web app` - using `cgijs proxy` module
+  * In App / Local / Remote proxy support
+* Allows `embedding servers` like `httpd`, `nginx`, etc to serve web applications - using `cgijs process` module
+* Allows `embedding database servers` (in development) - using `cgijs process` module
+* Allows `embedding executables` (in development) - using `cgijs process` module
+* Allows
+  * running multiple language interpreters in one app
+  * running multiple proxies (currently `http`, `websockets`. Other protocols like `tcp`, `udp`, `grpc`, `sockets` planned) in one app
+  * managing multiple embedded (http) servers in one app
+  * managing multiple embedded executables in one app
+
+##### The script should pipe all interpreted language files below
+
+* Python (2.x, 3.x)
+* Perl (Version Independent)
+* PHP (Version Independent)
+* Ruby (Version Independent)
+<!-- * .NET (Version Independent) -->
+<!-- * JSP (Version Independent) -->
+
+##### The script will pipe all proxies of above languages and following (to be tested)
+
+* Jsp (With Tomcat embedded)
+* Aspx (Version Independent - With local IIS proxy, Apache embedded)
+* Any app using local / remote proxy (currently http, websockets. tcp, udp, grpc, socket planned)
+
+##### The script should currently allow embedding following servers for proxy [TODO: In Development]
+
+* Apache HTTPD (Allows Embed & Proxy)
+* Apache TomCat (Allows Embed & Proxy)
+* Nginx (Allows Embed & Proxy)
+* Mongoose http server (Allows Embed & Proxy)
+
+The script can proxy to any File, most embeddable web servers, and/ or Proxy-able local / remote servers; even IIS Server (Allows Proxy)
+
 
 #### Note
 
