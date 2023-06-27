@@ -107,4 +107,10 @@ git remote -v
 git pull origin main
 git checkout main
 npm install --force
-# cd ..
+cd ..
+git remote -v
+git remote remove main
+git remote remove origin
+git remote add origin https://github.com/desktop-cgi/desktop-cgi.git
+git remote -v
+git pull origin main
