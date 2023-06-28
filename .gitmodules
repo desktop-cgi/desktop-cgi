@@ -16,3 +16,12 @@
 [submodule "bridge-express"]
 	path = bridge-express
 	url = https://github.com/desktop-cgi/bridge-express.git
+[submodule "bridge-reactnative"]
+	path = bridge-reactnative
+	url = https://github.com/desktop-cgi/bridge-reactnative.git
+[submodule "bridge-nativescript"]
+	path = bridge-nativescript
+	url = https://github.com/desktop-cgi/bridge-nativescript.git
+[submodule "bridge-vite-express"]
+	path = bridge-vite-express
+	url = https://github.com/desktop-cgi/bridge-vite-express.git

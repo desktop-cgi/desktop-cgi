@@ -63,17 +63,17 @@ git remote -v
 git pull origin main
 git checkout main
 npm install --force
-# cd ..
-# cd bridge-vite-express
-# git init
-# git remote -v
-# git remote remove main
-# git remote remove origin
-# git remote add origin https://github.com/desktop-cgi/bridge-vite-express.git
-# git remote -v
-# git pull origin main
-# git checkout main
-# npm install --force
+cd ..
+cd bridge-vite-express
+git init
+git remote -v
+git remote remove main
+git remote remove origin
+git remote add origin https://github.com/desktop-cgi/bridge-vite-express.git
+git remote -v
+git pull origin main
+git checkout main
+npm install --force
 cd ..
 cd bridge-nativescript
 git init
