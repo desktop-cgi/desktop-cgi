@@ -7,6 +7,7 @@ git remote add origin https://github.com/desktop-cgi/base-electron.git
 git remote -v
 git pull origin main
 git checkout main
+git push --set-upstream origin main
 npm install --force
 npm update --force
 cd ..
@@ -19,6 +20,7 @@ git remote add origin https://github.com/desktop-cgi/base-tauri.git
 git remote -v
 git pull origin main
 git checkout main
+git push --set-upstream origin main
 npm install --force
 npm update --force
 cd ..
@@ -31,6 +33,7 @@ git remote add origin https://github.com/desktop-cgi/base-wails.git
 git remote -v
 git pull origin main
 git checkout main
+git push --set-upstream origin main
 npm install --force
 npm update --force
 cd ..
@@ -43,6 +46,7 @@ git remote add origin https://github.com/desktop-cgi/binaries.git
 git remote -v
 git pull origin main
 git checkout main
+git push --set-upstream origin main
 npm install --force
 npm update --force
 cd ..
@@ -55,6 +59,7 @@ git remote add origin https://github.com/desktop-cgi/bridge-cordova.git
 git remote -v
 git pull origin main
 git checkout main
+git push --set-upstream origin main
 npm install --force
 npm update --force
 cd ..
@@ -67,6 +72,7 @@ git remote add origin https://github.com/desktop-cgi/bridge-express.git
 git remote -v
 git pull origin main
 git checkout main
+git push --set-upstream origin main
 npm install --force
 npm update --force
 cd ..
@@ -79,6 +85,7 @@ git remote add origin https://github.com/desktop-cgi/bridge-vite-express.git
 git remote -v
 git pull origin main
 git checkout main
+git push --set-upstream origin main
 npm install --force
 npm update --force
 cd ..
@@ -91,6 +98,7 @@ git remote add origin https://github.com/desktop-cgi/bridge-nativescript.git
 git remote -v
 git pull origin main
 git checkout main
+git push --set-upstream origin main
 npm install --force
 npm update --force
 cd ..
@@ -103,6 +111,7 @@ git remote add origin https://github.com/desktop-cgi/bridge-reactnative.git
 git remote -v
 git pull origin main
 git checkout main
+git push --set-upstream origin main
 npm install --force
 npm update --force
 cd ..
@@ -115,6 +124,7 @@ git remote add origin https://github.com/cgi-js/cgi-js.git
 git remote -v
 git pull origin main
 git checkout main
+git push --set-upstream origin main
 npm install --force
 npm update --force
 cd ..
@@ -124,6 +134,7 @@ git remote remove origin
 git remote add origin https://github.com/desktop-cgi/desktop-cgi.git
 git remote -v
 git pull origin main
+git push --set-upstream origin main
 npm install --force
 npm update --force
 cd ..
